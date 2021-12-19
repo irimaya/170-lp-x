@@ -1,0 +1,27 @@
+@media(max-width: 700px){
+  // Utility Classes
+  .display-1 { 
+    font-size: 3rem; 
+  }
+
+/* Mainheader */
+#mainheader {
+  height: 100%;
+  .mainheader-row {
+    flex-wrap: wrap;
+    padding-top: 20px;
+    &-text {
+      width: 100%;
+      padding-right: 0;
+      padding-top: 20px;
+    } //End #mainheader .mainheader-row &-text
+    &-form {
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 50px;
+      padding-top: 50px;
+    } //End #mainheader .mainheader-row &-row
+  } //End #mainheader .mainheader-row
+} //End #mainheader
+
+}
